@@ -32,7 +32,7 @@ jobs:
       - name: Deploy to ECS
         uses: aws-actions/amazon-ecs-deploy-task-definition@v1
         with:
-          aws-region: 436438563472
+          aws-region: eu-west-2
           cluster: DevCluster
           service: ecs-demo-service
           task-definition: ecs-demo-task-definition
